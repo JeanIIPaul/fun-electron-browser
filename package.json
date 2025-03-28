@@ -1,0 +1,23 @@
+{
+  "name": "fun-electron-browser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeanIIPaul/fun-electron-browser.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JeanIIPaul/fun-electron-browser/issues"
+  },
+  "homepage": "https://github.com/JeanIIPaul/fun-electron-browser#readme",
+  "devDependencies": {
+    "electron": "^35.1.2"
+  }
+}

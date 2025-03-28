@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JP Fun Browser</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; }
+        .toolbar { display: flex; padding: 10px; background: #ddd; }
+        .toolbar input { flex: 1; padding: 5px; }
+        .toolbar button { margin-left: 5px; }
+        webview { width: 100%; height: calc(100vh - 50px); }
+    </style>
+</head>
+<body>
+    <div class="toolbar">
+        <button id="back">⏪</button>
+        <button id="forward">⏩</button>
+        <input type="text" id="url" placeholder="Enter URL">
+        <button id="go">Navigate</button>
+        <button id="reload">🔄</button>
+    </div>
+    <webview id="browser" src="https://www.google.com"></webview>
+
+    <script src="renderer.js"></script>
+</body>
+</html>
